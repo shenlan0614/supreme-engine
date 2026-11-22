@@ -7,7 +7,7 @@ source.include_exts = py,png,jpg,kv,atlas
 source.exclude_exts = spec,md,yml,yaml
 version = 1.0.0
 
-requirements = python3,kivy==2.3.0
+requirements = python3,kivy==2.2.1
 
 orientation = portrait
 fullscreen = 0
@@ -16,9 +16,8 @@ android.api = 35
 android.minapi = 21
 android.sdk = 35
 android.ndk = 25b
-android.arch = arm64-v8a
+android.archs = arm64-v8a
 android.accept_sdk_license = True
-android.entrypoint = org.ung220z.tools.main
 
 [buildozer]
 log_level = 2
