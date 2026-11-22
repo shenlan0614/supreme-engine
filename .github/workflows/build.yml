@@ -26,7 +26,8 @@ jobs:
             libncurses5-dev libncursesw5-dev libtinfo5 cmake \
             libffi-dev libssl-dev libltdl-dev python3-pip
           pip install --upgrade pip setuptools wheel
-          pip install "cython<3" buildozer
+          pip install buildozer
+          pip install "cython==0.29.37"
 
       - name: Build APK
         run: buildozer -v android debug
